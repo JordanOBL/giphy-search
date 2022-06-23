@@ -21,3 +21,14 @@ button.current {
 #colorDiv {
   padding: 25px;
 }
+
+#gifContainer {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.newGif {
+  height: 200px;
+  width: 200px;
+  object-fit: cover;
+}
