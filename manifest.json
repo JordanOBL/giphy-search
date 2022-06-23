@@ -1,0 +1,21 @@
+{
+  "name": "GIPHY Search 3000",
+  "description": "Allows the user to access the GIPHY Search API",
+  "version": "1.0",
+  "manifest_version": 3,
+  "action": {
+    "default_icon": {
+      "16": "img/giphy_16.png",
+      "24": "img/giphy_19.png",
+      "32": "img/giphy_32.png"
+    },
+    "default_title": "Click Me",
+    "default_popup": "popup.html"
+  },
+  "background": {
+    "service_worker": "background.js"
+  },
+  "permissions": [
+    "storage"
+  ]
+}
